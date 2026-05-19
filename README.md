@@ -4,7 +4,7 @@ An empathetic, data-driven, and structured career re-integration ecosystem built
 
  🔗 Project Access
 - Status: Development Prototype (Local Environment)
-- GitHub Repository: `https://github.com/your-username/Gap-Career-Reentry`
+- GitHub Repository: `https://github.com/bhavyavennapusa1-cell/Gap-Career_Re-Entry_Platform.git`
 
 Note: This platform is currently configured as a development prototype. Follow the Getting Started Locally instructions below to spin up the interface on your machine.
 The Problem
