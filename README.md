@@ -81,5 +81,7 @@ Cryptographic Validation & Immutable Progress Tracking:
 Moving towards a decentralized verification model where a user's completed skill achievements, test milestones, and project validations are logged securely. This gives partnering startups instant, mathematical proof of a candidate's updated capabilities without requiring manual background verification.
 
 Developed by Team Trio&Error
+
 Hackathon Platform:  VNR Design-a-thon (2026)
+
 Focus Category: Career Re-Entry Platform for Women Professionals
