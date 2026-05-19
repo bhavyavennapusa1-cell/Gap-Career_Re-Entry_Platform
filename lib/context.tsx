@@ -92,17 +92,23 @@ const initialJobMatches: JobMatch[] = [
 ];
 
 export function AppProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<User | null>(null);
+  const [user, setUser] = useState<User | null>({
+    id: '1',
+    email: 'guest@example.com',
+    name: 'Guest User',
+    isPremium: false,
+    createdAt: new Date(),
+  });
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [skillAnalysis, setSkillAnalysis] = useState<SkillGapAnalysis | null>(null);
   const [assessmentResults, setAssessmentResults] = useState<AssessmentResult[]>([]);
   const [upskillingPlan, setUpskillingPlan] = useState<UpskillingPlan | null>(null);
   const [jobMatches, setJobMatches] = useState<JobMatch[]>(initialJobMatches);
   const [dashboardStats, setDashboardStats] = useState<DashboardStats | null>(initialDashboardStats);
-  const [currentView, setCurrentView] = useState<AppView>('login');
+  const [currentView, setCurrentView] = useState<AppView>('dashboard');
   const [onboardingStep, setOnboardingStep] = useState<OnboardingStep>('welcome');
   const [selectedRole, setSelectedRole] = useState<string | null>(null);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
 
   const login = async (email: string, password: string): Promise<boolean> => {
     // Simulate API call
